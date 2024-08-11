@@ -19,4 +19,28 @@
     .btn-group{
         display: none;
     }
+    .main-galardones{
+        grid-template: repeat(4,1fr)/repeat(4,1fr);
+    }
+    .section-colectivo{
+        grid-column: 2/4;
+        padding-left: 200px;
+        padding-top: 90px;
+        h2{
+            font-size: 30px;
+            margin-top: -60px;
+            margin-left: -80px;
+        }
+    }
+    .section-individual{
+        grid-column: 2/4;
+        h2{
+            font-size: 30px;
+            margin-left: -150px;
+            margin-top: -150px;
+        }
+        ul{
+            margin-left: -250px;
+        }
+    }
 }
