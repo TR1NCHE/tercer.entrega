@@ -1,0 +1,13 @@
+.btn-group{
+    grid-column: 2/4;
+    grid-row: 4/5;
+    padding-left: 30px;
+    padding-top: 30px;
+    margin-right: 30px;
+    gap: 8px;
+}
+
+.btn{
+    color: $colorletras;
+    border: solid 1px $colorletras;
+}

@@ -1,0 +1,25 @@
+nav{
+    display: flex;
+    flex-direction: row;
+    grid-column: 2/4;
+    align-content: end;
+    justify-content: center;
+    padding-bottom: 10px;
+}
+
+.navBar{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+    align-self: end;
+        li{
+            a{
+                font-family: "Goudy Bookletter 1911", serif;
+                text-transform: capitalize;
+                color: $colorletras;
+                font-size: 25px;
+            }
+        }
+}

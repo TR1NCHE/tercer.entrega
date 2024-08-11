@@ -1,0 +1,18 @@
+footer{
+    p{
+        font-family: "Goudy Bookletter 1911", serif;
+        color: $colorletras;
+        text-align: center;
+        text-transform: uppercase;
+        font-weight: lighter;
+    }
+    div{
+        text-align: center;
+            a{
+                font-family: "Goudy Bookletter 1911", serif;
+                text-decoration: none;
+                color: $colorletras;
+                text-transform: capitalize;
+            }
+    }
+}

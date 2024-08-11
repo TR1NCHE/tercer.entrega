@@ -1,0 +1,15 @@
+.header-todos{
+    width: 100%;
+    height: 100px;
+    display: grid;
+    grid-template: repeat(2,1fr)/repeat(4,1fr);
+        h1{
+            font-family: "Goudy Bookletter 1911", serif;
+            color: $colorletras;
+            text-align: center;
+            text-transform: uppercase;
+            font-weight: lighter;
+            grid-column: 2/4;
+            padding-top: 10px;
+        }
+}
