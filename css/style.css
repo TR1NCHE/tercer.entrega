@@ -384,3 +384,92 @@ nav {
 .btn {
   color: goldenrod;
   border: solid 1px goldenrod; }
+
+@media (max-width: 1440px) {
+  .messi-massia {
+    padding-top: 1rem;
+    padding-bottom: 1rem; } }
+
+@media (max-width: 1024px) {
+  .navBar li a {
+    font-size: 20px; }
+  dl {
+    padding-top: 20px; }
+  .subTitulo {
+    font-size: 1rem;
+    padding-left: 4rem; }
+  .info-goat {
+    font-size: 0.75rem;
+    padding-right: 50px; }
+  .btn-group {
+    padding-left: 120px;
+    padding-bottom: 70px;
+    display: table-column; }
+  .messi-massia {
+    margin-top: -12rem; } }
+
+@media (max-width: 768px) {
+  .navBar li a {
+    font-size: 15px; }
+  .subTitulo {
+    padding-left: 6rem; }
+  .info-goat {
+    font-size: 0.60rem;
+    padding-left: 8rem; }
+  dl {
+    padding-left: 45px; }
+  .btn-group {
+    display: none; } }
+
+@media (max-width: 425px) {
+  .main-inicio {
+    background-image: none; }
+    .main-inicio section {
+      grid-row: 1/2;
+      color: white; }
+  .subTitulo {
+    padding: 0px 0px; }
+  .info-goat {
+    padding: 0px 0px; }
+  dl {
+    padding-left: 0px; }
+  .messi-hero {
+    grid-column: 1/5; }
+    .messi-hero img {
+      padding-right: 0rem; }
+  .main-biografia {
+    grid-template: repeat(4, 1fr)/repeat(2, 1fr); }
+  .messi-niño {
+    grid-column: 1/2;
+    grid-row: 1/3;
+    padding-left: 1rem; }
+  .messi-massia {
+    grid-row: 3/5;
+    grid-column: 2/3;
+    padding-bottom: 0rem;
+    padding-right: 1rem; }
+  .messi-newell {
+    grid-column: 2/3;
+    grid-row: 1/2; }
+    .messi-newell h2 {
+      font-size: 15px; }
+  .messi-barsa {
+    grid-row: 3/5;
+    grid-column: 1/2; }
+    .messi-barsa h2 {
+      font-size: 15px;
+      padding-bottom: 0rem; }
+  .navBar {
+    margin-bottom: 16px;
+    padding-left: 32px; } }
+
+@media (max-width: 375px) {
+  .header-todos h1 {
+    font-size: 20px;
+    grid-column: 1/3;
+    text-align: start;
+    padding-left: 1rem; }
+  nav {
+    grid-column: 3/5;
+    align-content: end;
+    padding-right: 1rem; } }

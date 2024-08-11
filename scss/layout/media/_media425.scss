@@ -1,0 +1,57 @@
+@media (max-width:425px){
+    .main-inicio{
+        background-image: none;
+        section{
+            grid-row: 1/2;
+            color: white;
+        }
+    }
+    .subTitulo{
+        padding: 0px 0px;
+    }
+    .info-goat{
+        padding: 0px 0px;
+    }
+    dl{
+        padding-left: 0px;
+    }
+    .messi-hero{
+        grid-column: 1/5;
+        img{
+            padding-right: 0rem;
+        }
+    }
+    .main-biografia{
+        grid-template: repeat(4,1fr)/repeat(2,1fr);
+    }
+    .messi-niño{
+        grid-column: 1/2;
+        grid-row: 1/3;
+        padding-left: 1rem;
+    }
+    .messi-massia{
+        grid-row: 3/5;
+        grid-column: 2/3;
+        padding-bottom: 0rem;
+        padding-right: 1rem;
+    }
+    .messi-newell{
+        grid-column: 2/3;
+        grid-row: 1/2;
+        h2{
+            font-size: 15px;
+        }
+    }
+    .messi-barsa{
+        grid-row: 3/5;
+        grid-column: 1/2;
+        h2{
+            font-size: 15px;
+            padding-bottom: 0rem;
+        }
+    }
+    .navBar{
+        margin-bottom: 16px;
+        padding-left: 32px;
+    }
+}
