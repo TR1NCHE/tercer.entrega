@@ -383,7 +383,13 @@ nav {
 
 .btn {
   color: goldenrod;
-  border: solid 1px goldenrod; }
+  border: solid 1px goldenrod;
+  transition: background-color 0.5s ease; }
+
+.btn:hover {
+  background-color: white;
+  color: goldenrod;
+  border: solid 3px goldenrod; }
 
 @media (max-width: 1440px) {
   .messi-massia {

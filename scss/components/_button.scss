@@ -10,4 +10,11 @@
 .btn{
     color: $colorletras;
     border: solid 1px $colorletras;
+    transition: background-color 0.5s ease;
+}
+
+.btn:hover {
+    background-color: white;
+    color: goldenrod;
+    border: solid 3px $colorletras ;
 }
